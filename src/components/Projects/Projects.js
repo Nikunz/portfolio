@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import aws from "../../Assets/Projects/aws.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import terra from "../../Assets/Projects/terra.png";
 
 function Projects() {
   return (
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={terra}
               isBlog={false}
               title="Terraform 2-tier Architecture"
               description="Terraform project to deploy a 2-tier AWS infrastructure that includes a Virtual Private Cloud (VPC), public and private subnets, security groups, EC2 instances, an Application Load Balancer (ALB), and a MySQL database instance."
