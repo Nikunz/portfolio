@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="AWS 3-tier Architechture"
+              description="A 3-tier architecture deployed in Amazon Web Services (AWS). The architecture consists of a web layer, an application layer, and a data layer, utilizing MySQL database. Additionally, it includes load balancers, target groups, bastion hosts, NAT gateway, and Elastic IP for enhanced security and scalability."
+              ghLink="https://github.com/Nikunz/3-tier-architecture"
+              // demoLink=""
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Terraform 2-tier Architecture"
+              description="Terraform project to deploy a 2-tier AWS infrastructure that includes a Virtual Private Cloud (VPC), public and private subnets, security groups, EC2 instances, an Application Load Balancer (ALB), and a MySQL database instance."
+              ghLink="https://github.com/Nikunz/2tierarchitecture.git"
+              // demoLink=""
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Kubernetes-promethius project"
+              description="A project to deploy a monitoring service as Promethius with the help of a kubernetes cluster."
+              ghLink="https://github.com/Nikunz/kubernetes.git"
+              // demoLink=""              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Docker-logstash-Kibana"
+              description="Docker Project to set up Elasticsearch, Logstash, and Kibana for log aggregation and visualization. This setup can be useful for monitoring and analyzing logs from various sources."
+              ghLink="https://github.com/Nikunz/docker-compose-examples.git"
+              // demoLink=""
             />
           </Col>
 
@@ -69,10 +69,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="CICD projects"
+              description="Automation projects with jenkins using maven, docker, nexus, sonarqube, tomcat, kubernetes, EKS and ecs."
+              ghLink="https://github.com/Nikunz/Jenkins.git"
+              // demoLink=""
             />
           </Col>
 
@@ -80,11 +80,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Terraform Projects"
+              description="Terraform automation projects to automate various cloud resources like Scaling groups, Loadbalancers, Elastic beanstalk, Elastic container services and Elastic Kubernetes services."
+              ghLink="https://github.com/Nikunz/Terraform.git"
+              // demoLink=""
             />
           </Col>
         </Row>
