@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import docker from "../../Assets/Projects/docker.png";
+import automation from "../../Assets/Projects/automation.png";
+import k8 from "../../Assets/Projects/k8.png";
 import aws from "../../Assets/Projects/aws.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import jenkins from "../../Assets/Projects/jenkins.png";
 import terra from "../../Assets/Projects/terra.png";
 
 function Projects() {
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={k8}
               isBlog={false}
               title="Kubernetes-promethius project"
               description="A project to deploy a monitoring service as Promethius with the help of a kubernetes cluster."
@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={docker}
               isBlog={false}
               title="Docker-logstash-Kibana"
               description="Docker Project to set up Elasticsearch, Logstash, and Kibana for log aggregation and visualization. This setup can be useful for monitoring and analyzing logs from various sources."
@@ -67,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={jenkins}
               isBlog={false}
               title="CICD projects"
               description="Automation projects with jenkins using maven, docker, nexus, sonarqube, tomcat, kubernetes, EKS and ecs."
@@ -78,7 +78,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={automation}
               isBlog={false}
               title="Terraform Projects"
               description="Terraform automation projects to automate various cloud resources like Scaling groups, Loadbalancers, Elastic beanstalk, Elastic container services and Elastic Kubernetes services."
