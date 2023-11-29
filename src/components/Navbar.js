@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://cloudai.vercel.app/"
+                href="https://cloudblogspot.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
