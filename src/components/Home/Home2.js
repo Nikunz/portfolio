@@ -61,7 +61,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Nikunzkoppula"
+                  href="https://twitter.com/Nikunz_offical"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
