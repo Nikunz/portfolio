@@ -17,7 +17,7 @@ function AboutCard() {
             I have worked on various projects and technologies such as AWS, Docker, Kubernetes, Jenkins, Gitlab. 
             <br />
             <br />
-            Additionally, I am currently employed as a <span className="purple"> Junior DevOps Engineer </span>at 
+            Additionally, I am currently employed as a <span className="purple"> DevOps Engineer </span>at 
             Moneris Solutions.
             <br />
             <br />
